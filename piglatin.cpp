@@ -1,4 +1,4 @@
-// Example program
+// Pig Latin Translator
 #include <iostream>
 #include <string>
 
