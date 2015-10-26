@@ -12,4 +12,13 @@ const char VOWEL_E = 'e';
 const char VOWEL_U = 'u';
 const char VOWEL_I = 'i';
 const char VOWEL_O = 'o';
+
+  //create a prompt to ask for the first vowel in the word
+  
+  
+  
+  
 }
+
+
+
