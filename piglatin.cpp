@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+//variables and constants
 char firstVowel = ' ';
 string inputWord = "";
 string begOutWord = "";
@@ -18,7 +19,7 @@ const char VOWEL_U = 'u';
 const char VOWEL_I = 'i';
 const char VOWEL_O = 'o';
 
-  //create a prompt to ask for the first vowel in the word
+  //user input
 cout << "what word would you like to translate?\n";
 cin >> inputWord;
 cout << "What is the first vowel of that word?\n";
