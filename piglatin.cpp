@@ -7,6 +7,11 @@ int main()
 char firstVowel = ' ';
 string inputWord = "";
 string begOutWord = "";
+
+//possible line saver, given it is correct
+const char VOWELS[] = {'a', 'e', 'u', 'i', 'o',};
+//end saver
+
 const char VOWEL_A = 'a';
 const char VOWEL_E = 'e';
 const char VOWEL_U = 'u';
