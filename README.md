@@ -1,3 +1,4 @@
 # pig-latin-translator
 Translates all your favorite words into pig latin!
-Work in progress lololol
+Work in progress
+Contact: Taylorbrad@fagmail.org
