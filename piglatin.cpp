@@ -40,15 +40,13 @@ int main(int argc, char *argv[])
 }
 int getPositionFirstVowel(string wordInput)
 {
-    string vowels = "aAeEiIoOuU";
+    const string vowels = "aAeEiIoOuU";
 	int testIfVowel = 0;
 	
 	for (int x = 0; x < wordInput.length(); ++x)
 	{
-	    size_t found = vowels.find(wordInput.substr(x, 1));
-	    if (found != string::npos)
+	    if (vowels.find(wordInput.substr(x, 1)) != string::npos)
 	    {
-	    	//cout << wordInput.substr(0, 1) << "  " << vowels[y] << "\n";
 	   		x += 100;
 		   	--testIfVowel;
 	   	}
